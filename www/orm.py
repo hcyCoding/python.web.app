@@ -6,6 +6,7 @@ __author__='hcyCoding'
 import logging
 import asyncio
 import aiomysql
+logging.basicConfig(level=logging.INFO)
 
 def log(sql, args=()):
     logging.info('SQL: %s' % sql)
